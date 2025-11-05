@@ -1,5 +1,11 @@
 /* ---------- Reset / Base (dark-only) ---------- */
-* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  -webkit-tap-highlight-color: transparent; 
+}
+
 :root{
   --bg: #0b0b0d;
   --card: #111214;
@@ -10,8 +16,16 @@
   --shadow: 0 6px 18px rgba(0,0,0,0.6);
 }
 
-body.dark {
+/* ---------- Corrigindo altura total e fundo ---------- */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: linear-gradient(180deg,#070708,var(--bg));
+  overflow-x: hidden; /* evita scroll horizontal */
+}
+
+body.dark {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
   display:flex;
@@ -33,7 +47,7 @@ body.dark {
 .title-box h1 { font-size:1.05rem; }
 .title-box small { display:block; opacity:0.95; font-size:0.78rem; margin-top:3px; }
 
-/* busca */
+/* ---------- Busca ---------- */
 .search-row {
   display:flex;
   gap:8px;
@@ -94,7 +108,11 @@ body.dark {
 .ad-inner{ width:100%; max-width:920px; padding:10px 12px; border-radius:10px; background:rgba(255,255,255,0.03); color:var(--text); text-align:center; font-weight:600; }
 
 /* ---------- Main / Grid / Cards ---------- */
-main{ flex:1; padding:16px 12px; }
+main{ 
+  flex:1; 
+  padding:16px 12px; 
+  min-height: calc(100vh - 100px); /* garante altura mínima maior que a tela */
+}
 .grid{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
