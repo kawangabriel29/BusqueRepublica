@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BusqueRep — Itabira</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark"> <!-- modo escuro fixo -->
+  <header class="header">
+    <div class="header-top">
+      <div class="title-box">
+        <h1>🏠 BusqueRep</h1>
+        <small>Repúblicas em Itabira-MG</small>
+      </div>
+    </div>
+
+    <div class="search-row">
+      <input id="buscaNome" type="search" placeholder="Buscar república..." autocomplete="off" aria-label="Buscar república" />
+      <button id="buscar-btn" aria-label="Executar busca">Buscar</button>
+    </div>
+
+    <!-- filtro estilo iOS (segment control) -->
+    <div class="segment-control" role="tablist" aria-label="Filtrar por gênero">
+      <button class="seg-btn active" data-filter="all" aria-pressed="true">Todas</button>
+      <button class="seg-btn" data-filter="masculina" aria-pressed="false">Masculinas</button>
+      <button class="seg-btn" data-filter="feminina" aria-pressed="false">Femininas</button>
+    </div>
+
+    <!-- ESPAÇO PARA ANÚNCIO (TOPO) - invisível até ativar AdSense -->
+    <div id="ad-top" class="ad-space" aria-hidden="true">
+      <!-- tag do Ads pode ser colada aqui quando tiver -->
+      <div class="ad-inner">ANÚNCIO — espaço reservado (invisível)</div>
+    </div>
+  </header>
+
+  <main>
+    <section id="resultados" class="grid" aria-live="polite"></section>
+  </main>
+
+  <!-- ESPAÇO PARA ANÚNCIO (RODAPÉ) - invisível -->
+  <div id="ad-footer" class="ad-space footer-ad" aria-hidden="true">
+    <div class="ad-inner">ANÚNCIO — espaço reservado (invisível)</div>
+  </div>
+
+  <footer>
+    <p>© 2025 BusqueRep • Desenvolvido por Kawan Gabriel</p>
+    <p class="contato">📩 Contato: <a id="meu-email" href="mailto:kawangabriel29@icloud.com">kawangabriel29@icloud.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
