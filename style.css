@@ -9,6 +9,13 @@
   --accent-ghost: rgba(10,132,255,0.12);
   --shadow: 0 6px 18px rgba(0,0,0,0.6);
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f5f5f5; /* coloque a cor que você quer de fundo */
+}
+
 body.dark {
   background: linear-gradient(180deg,#070708,var(--bg));
   color: var(--text);
