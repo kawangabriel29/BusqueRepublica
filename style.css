@@ -1,5 +1,5 @@
 /* ---------- Reset / Base (dark-only) ---------- */
-* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: black; }
 :root{
   --bg: #0b0b0d;
   --card: #111214;
@@ -8,12 +8,6 @@
   --accent: #0a84ff;
   --accent-ghost: rgba(10,132,255,0.12);
   --shadow: 0 6px 18px rgba(0,0,0,0.6);
-}
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #f5f5f5; /* coloque a cor que você quer de fundo */
 }
 
 body.dark {
