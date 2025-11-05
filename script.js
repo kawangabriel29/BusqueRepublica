@@ -1,15 +1,15 @@
 /* ---------- Dados iniciais (imagens locais já enviadas) ---------- */
 const republicas = [
-  { nome:"República Tribal", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/rep.tribal?igsh=MW9iaWNsYjJ5YXhpNg==", capa:"tribal.jpg", genero:"masculina" },
-  { nome:"República Monarquia", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/monarquiaunifei?igsh=Z3phN2R2bnBhNTc=", capa:"monarquia.jpg", genero:"feminina" },
-  { nome:"República TetaLambda", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/reptetalambda?igsh=MTQyZTg2ejl6em02aA==", capa:"tetalambda.jpg", genero:"masculina" },
-  { nome:"República Chapanda Mística", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/chapandamistica?igsh=eGNoZmJ3aGx4dnV6", capa:"chapanda.jpg", genero:"feminina" },
-  { nome:"República Toca do Raul", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/reptocadoraul?igsh=MThha2N3NXF4dm56bA==", capa:"tocaraul.jpg", genero:"masculina" },
-  { nome:"República San Juan", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/repsanjuan?igsh=MWd6N3Z2MHBnNjh0bA==", capa:"sanjuan.jpg", genero:"masculina" },
-  { nome:"República Fosso", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/repfosso_?igsh=NHBlamFlNmkwYXNw", capa:"fosso.jpg", genero:"masculina" },
-  { nome:"República MinaMora", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/republica.minamora", capa:"minamora.jpg", genero:"feminina" },
-  { nome:"República Dominicana", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/republicadominicana", capa:"dominicana.jpg", genero:"feminina" },
-  { nome:"República Whiskas", cidade:"Itabira", vagas:"Verificar!", contato:"", instagram:"https://www.instagram.com/repwhiskas", capa:"whiskas.jpg", genero:"feminina" }
+  { nome:"República Tribal", cidade:"Itabira", contato:"", instagram:"https://www.instagram.com/rep.tribal?igsh=MW9iaWNsYjJ5YXhpNg==", capa:"tribal.jpg", genero:"masculina" },
+  { nome:"República Monarquia", cidade:"Itabira", contato:"", instagram:"https://www.instagram.com/monarquiaunifei?igsh=Z3phN2R2bnBhNTc=", capa:"monarquia.jpg", genero:"feminina" },
+  { nome:"República TetaLambda", cidade:"Itabira", contato:"", instagram:"https://www.instagram.com/reptetalambda?igsh=MTQyZTg2ejl6em02aA==", capa:"tetalambda.jpg", genero:"masculina" },
+  { nome:"República Chapanda Mística", cidade:"Itabira", contato:"", instagram:"https://www.instagram.com/chapandamistica?igsh=eGNoZmJ3aGx4dnV6", capa:"chapanda.jpg", genero:"feminina" },
+  { nome:"República Toca do Raul", cidade:"Itabira", contato:"", instagram:"https://www.instagram.com/reptocadoraul?igsh=MThha2N3NXF4dm56bA==", capa:"tocaraul.jpg", genero:"masculina" },
+  { nome:"República San Juan", cidade:"Itabira",contato:"", instagram:"https://www.instagram.com/repsanjuan?igsh=MWd6N3Z2MHBnNjh0bA==", capa:"sanjuan.jpg", genero:"masculina" },
+  { nome:"República Fosso", cidade:"Itabira",contato:"", instagram:"https://www.instagram.com/repfosso_?igsh=NHBlamFlNmkwYXNw", capa:"fosso.jpg", genero:"masculina" },
+  { nome:"República MinaMora", cidade:"Itabira",contato:"", instagram:"https://www.instagram.com/republica.minamora", capa:"minamora.jpg", genero:"feminina" },
+  { nome:"República Dominicana", cidade:"Itabira", contato:"", instagram:"https://www.instagram.com/republicadominicana", capa:"dominicana.jpg", genero:"feminina" },
+  { nome:"República Whiskas", cidade:"Itabira", contato:"", instagram:"https://www.instagram.com/repwhiskas", capa:"whiskas.jpg", genero:"feminina" }
 ];
 
 /* ---------- DOM ---------- */
