@@ -1,5 +1,5 @@
 /* ---------- Reset / Base (dark-only) ---------- */
-* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: black; }
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
 :root{
   --bg: #0b0b0d;
   --card: #111214;
